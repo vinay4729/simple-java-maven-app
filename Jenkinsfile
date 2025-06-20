@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        jdk 'JDK_17'
-        maven 'Maven_3'
+        jdk 'jdk-17'         // <-- must match exactly
+        maven 'Maven 3'      // <-- must match exactly
     }
 
     environment {
@@ -47,3 +47,4 @@ pipeline {
         }
     }
 }
+
